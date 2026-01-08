@@ -3,12 +3,12 @@ import packageJson from "../../package.json";
 const currentYear = new Date().getFullYear();
 
 export const APP_CONFIG = {
-  name: "Studio Admin",
+  name: "TenvioX FinSight",
   version: packageJson.version,
-  copyright: `© ${currentYear}, Studio Admin.`,
+  copyright: `© ${currentYear}, TenvioX FinSight.`,
   meta: {
-    title: "Studio Admin - Modern Next.js Dashboard Starter Template",
+    title: "TenvioX FinSight - AI-Powered Financial Announcement Intelligence Platform",
     description:
-      "Studio Admin is a modern, open-source dashboard starter template built with Next.js 16, Tailwind CSS v4, and shadcn/ui. Perfect for SaaS apps, admin panels, and internal tools—fully customizable and production-ready.",
+      "TenvioX FinSight is an advanced financial intelligence dashboard designed for automated information extraction from listed company announcements. It leverages sophisticated AI prompt engineering, offering hierarchical outline management and specialized extraction modes to transform complex financial disclosures into structured, actionable data.",
   },
 };

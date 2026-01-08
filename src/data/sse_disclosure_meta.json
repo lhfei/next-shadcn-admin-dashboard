@@ -1,0 +1,222 @@
+{
+  "publishData": [
+    {
+      "announceTypeId": "1",
+      "announceTypeName": "定期报告",
+      "announceTypeCode": "00",
+      "childData": [
+        {
+          "announceTypeId": "0101",
+          "announceTypeName": "年报",
+          "announceTypeCode": "0101"
+        },
+        {
+          "announceTypeId": "0102",
+          "announceTypeName": "一季报",
+          "announceTypeCode": "0102"
+        },
+        {
+          "announceTypeId": "0104",
+          "announceTypeName": "三季报",
+          "announceTypeCode": "0104"
+        },
+        {
+          "announceTypeId": "0103",
+          "announceTypeName": "半年报",
+          "announceTypeCode": "0103"
+        }
+      ]
+    },
+    {
+      "announceTypeId": "2",
+      "announceTypeName": "董事会和监事会",
+      "announceTypeCode": "01"
+    },
+    {
+      "announceTypeId": "3",
+      "announceTypeName": "股东会",
+      "announceTypeCode": "02"
+    },
+    {
+      "announceTypeId": "4",
+      "announceTypeName": "应当披露的交易",
+      "announceTypeCode": "03"
+    },
+    {
+      "announceTypeId": "5",
+      "announceTypeName": "首次公开发行",
+      "announceTypeCode": "08"
+    },
+    {
+      "announceTypeId": "6",
+      "announceTypeName": "关联交易",
+      "announceTypeCode": "25"
+    },
+    {
+      "announceTypeId": "7",
+      "announceTypeName": "对外担保",
+      "announceTypeCode": "09"
+    },
+    {
+      "announceTypeId": "8",
+      "announceTypeName": "募集资金使用与管理",
+      "announceTypeCode": "10"
+    },
+    {
+      "announceTypeId": "9",
+      "announceTypeName": "业绩预告、业绩快报和盈利预测",
+      "announceTypeCode": "11"
+    },
+    {
+      "announceTypeId": "10",
+      "announceTypeName": "利润分配和资本公积金转增股本",
+      "announceTypeCode": "12"
+    },
+    {
+      "announceTypeId": "11",
+      "announceTypeName": "股票交易异常波动和澄清",
+      "announceTypeCode": "13"
+    },
+    {
+      "announceTypeId": "12",
+      "announceTypeName": "股份上市流通与股本变动",
+      "announceTypeCode": "14"
+    },
+    {
+      "announceTypeId": "13",
+      "announceTypeName": "股东增持或减持股份",
+      "announceTypeCode": "15"
+    },
+    {
+      "announceTypeId": "14",
+      "announceTypeName": "权益变动报告书和（要约）收购",
+      "announceTypeCode": "16"
+    },
+    {
+      "announceTypeId": "15",
+      "announceTypeName": "股权型再融资",
+      "announceTypeCode": "17"
+    },
+    {
+      "announceTypeId": "16",
+      "announceTypeName": "其他再融资",
+      "announceTypeCode": "18"
+    },
+    {
+      "announceTypeId": "17",
+      "announceTypeName": "重大资产重组",
+      "announceTypeCode": "19"
+    },
+    {
+      "announceTypeId": "18",
+      "announceTypeName": "吸收合并",
+      "announceTypeCode": "20"
+    },
+    {
+      "announceTypeId": "19",
+      "announceTypeName": "回购股份",
+      "announceTypeCode": "21"
+    },
+    {
+      "announceTypeId": "20",
+      "announceTypeName": "可转换公司债",
+      "announceTypeCode": "22"
+    },
+    {
+      "announceTypeId": "21",
+      "announceTypeName": "股权激励及员工持股计划",
+      "announceTypeCode": "24"
+    },
+    {
+      "announceTypeId": "22",
+      "announceTypeName": "诉讼和仲裁",
+      "announceTypeCode": "26"
+    },
+    {
+      "announceTypeId": "23",
+      "announceTypeName": "股东股份被质押冻结或司法拍卖",
+      "announceTypeCode": "27"
+    },
+    {
+      "announceTypeId": "24",
+      "announceTypeName": "破产与重整",
+      "announceTypeCode": "28"
+    },
+    {
+      "announceTypeId": "25",
+      "announceTypeName": "其他重大事项",
+      "announceTypeCode": "29"
+    },
+    {
+      "announceTypeId": "26",
+      "announceTypeName": "公司重要基本信息变化",
+      "announceTypeCode": "30"
+    },
+    {
+      "announceTypeId": "27",
+      "announceTypeName": "风险警示",
+      "announceTypeCode": "31"
+    },
+    {
+      "announceTypeId": "28",
+      "announceTypeName": "暂停、恢复和终止上市",
+      "announceTypeCode": "32"
+    },
+    {
+      "announceTypeId": "29",
+      "announceTypeName": "补充更正公告",
+      "announceTypeCode": "33"
+    },
+    {
+      "announceTypeId": "30",
+      "announceTypeName": "规范运作",
+      "announceTypeCode": "34"
+    },
+    {
+      "announceTypeId": "31",
+      "announceTypeName": "中介机构报告",
+      "announceTypeCode": "35"
+    },
+    {
+      "announceTypeId": "32",
+      "announceTypeName": "停复牌提示性公告",
+      "announceTypeCode": "36"
+    },
+    {
+      "announceTypeId": "33",
+      "announceTypeName": "优先股",
+      "announceTypeCode": "37"
+    },
+    {
+      "announceTypeId": "34",
+      "announceTypeName": "特别表决权",
+      "announceTypeCode": "04"
+    },
+    {
+      "announceTypeId": "35",
+      "announceTypeName": "超额配售选择权",
+      "announceTypeCode": "05"
+    },
+    {
+      "announceTypeId": "36",
+      "announceTypeName": "存托凭证相关公告",
+      "announceTypeCode": "07"
+    },
+    {
+      "announceTypeId": "37",
+      "announceTypeName": "询价转让及配售",
+      "announceTypeCode": "06"
+    },
+    {
+      "announceTypeId": "38",
+      "announceTypeName": "境内外同步披露",
+      "announceTypeCode": "38"
+    },
+    {
+      "announceTypeId": "39",
+      "announceTypeName": "其他",
+      "announceTypeCode": "90"
+    }
+  ],
+  "publishStatus": 2
+}

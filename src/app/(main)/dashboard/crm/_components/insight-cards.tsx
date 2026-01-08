@@ -22,8 +22,8 @@ export function InsightCards() {
         <CardHeader>
           <CardTitle>Leads by Source</CardTitle>
         </CardHeader>
-        <CardContent className="max-h-48">
-          <ChartContainer config={leadsBySourceChartConfig} className="size-full">
+        <CardContent>
+          <ChartContainer config={leadsBySourceChartConfig} className="mx-auto aspect-square max-h-[250px]">
             <PieChart
               className="m-0"
               margin={{
@@ -99,8 +99,8 @@ export function InsightCards() {
         <CardHeader>
           <CardTitle>Project Revenue vs. Target</CardTitle>
         </CardHeader>
-        <CardContent className="size-full max-h-52">
-          <ChartContainer config={projectRevenueChartConfig} className="size-full">
+        <CardContent>
+          <ChartContainer config={projectRevenueChartConfig} className="aspect-auto h-[250px] w-full">
             <BarChart accessibilityLayer data={projectRevenueChartData} layout="vertical">
               <CartesianGrid horizontal={false} />
               <YAxis
@@ -114,7 +114,7 @@ export function InsightCards() {
               />
               <XAxis dataKey="actual" type="number" hide />
               <ChartTooltip cursor={false} content={<ChartTooltipContent indicator="line" />} />
-              <Bar stackId="a" dataKey="actual" layout="vertical" fill="var(--color-actual)">
+              <Bar stackId="a" dataKey="actual" fill="var(--color-actual)">
                 <LabelList
                   dataKey="name"
                   position="insideLeft"
@@ -128,13 +128,7 @@ export function InsightCards() {
                   className="fill-primary-foreground text-xs tabular-nums"
                 />
               </Bar>
-              <Bar
-                stackId="a"
-                dataKey="remaining"
-                layout="vertical"
-                fill="var(--color-remaining)"
-                radius={[0, 6, 6, 0]}
-              >
+              <Bar stackId="a" dataKey="remaining" fill="var(--color-remaining)" radius={[0, 6, 6, 0]}>
                 <LabelList
                   dataKey="remaining"
                   position="insideRight"

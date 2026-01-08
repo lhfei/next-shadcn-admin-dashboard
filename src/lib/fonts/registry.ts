@@ -12,6 +12,7 @@ import {
   Poppins,
   Roboto,
 } from "next/font/google";
+import localFont from "next/font/local";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -77,10 +78,65 @@ const greatVibes = Great_Vibes({
   variable: "--font-great-vibes",
 });
 
+const alibaba = localFont({
+  src: [
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-35-Thin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-45-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-55-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-65-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-75-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-85-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-95-ExtraBold.ttf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-105-Heavy.ttf",
+      weight: "900",
+      style: "normal",
+    },
+    {
+      path: "../../../public/assets/fonts/AlibabaPuHuiTi-3-115-Black.ttf",
+      weight: "950",
+      style: "normal",
+    },
+  ],
+  variable: "--font-alibaba",
+});
+
 export const fontRegistry = {
   inter: {
     label: "Inter",
     font: inter,
+  },
+  alibaba: {
+    label: "Alibaba PuHuiTi",
+    font: alibaba,
   },
   roboto: {
     label: "Roboto",
